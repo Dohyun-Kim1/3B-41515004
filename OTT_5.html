@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>41515004</title>
+
+    <style>
+html,
+body,
+head {
+  margin: 0px auto;
+  padding: 0px;
+  width: 100%;
+  max-height: 100%;
+}
+
+.wrapper {
+  margin: 50px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 1620px;
+  height: 200px;
+  background-color:black;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  position: absolute;
+  left: 160px;
+  
+}
+
+.header_title {
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  border-bottom: 2px solid black;
+  
+}
+
+.header_title h1 {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  padding-top: 60px;
+  
+}
+
+.header_topmenu {
+  width: 1620px;
+  height: 50px;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  position: absolute;
+  left: 160px;
+  top: 250px;
+  
+  
+}
+
+.header_topmenu ul {
+  display: flex;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.header_topmenu li {
+  padding: 0px 300px;
+  list-style: none;
+  width: 300px;
+}
+
+.header_topmenu a {
+  text-decoration: none;
+}
+
+.leftnav {
+  width: 200px;
+  height: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 10px;
+  top: 300px;
+  
+}
+
+.leftnav ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 0px;
+  
+}
+
+.leftnav ul li {
+  display: flex;
+  padding: 0px;
+  list-style: none;
+  justify-content: center;
+  padding: 16px 0px;
+  border-bottom: 2px solid white;
+  
+}
+
+.leftnav ul li:first-child {
+  border-top: 2px solid white;
+  
+}
+
+.leftnav ul li a {
+  text-decoration: none;
+  color:white;
+  transition: all 1s;
+  
+}
+
+.leftnav ul li a:hover {
+  color: red;
+}
+
+.container {
+  width: 1200px;
+  max-height: 100%;
+  background-color: white;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 700px;
+  left: 360px;
+}
+
+.content {
+  width: 1500px;
+  max-height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: -450px;
+}
+
+.content_title {
+  width: 100%;
+  background-color: lightyellow;
+  height: 10%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.content_title h2 {
+  margin-left: 90px;
+  font-weight: 400;
+}
+
+.content_exp {
+  display: flex;
+  max-width: 100%;
+  border: 2px solid black;
+  height: 100%;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title {
+  width: 100%;
+  max-height: 100%;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.base {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.base h4 {
+  margin: 5px 10px;
+  font-weight: 400;
+}
+
+.wrapper > .leftnav{
+  margin-left: 150px;
+}
+
+.max-small {
+    width: auto; height: auto;
+    max-width: 500px;
+    max-height: 300px;
+    display: block;
+}
+
+
+    </style>
+</head>
+<body>
+    
+    <!-- 코딩 시작 -->
+    <div class="wrapper">
+        <!-- 헤더 영역 -->
+        <div class="header">
+                                                    <div class="header_title">
+                <h1>Over The Top</h1>
+            </div>
+            <!-- 상단 메뉴 -->                      
+        </div>
+        <div class="header_topmenu">
+            <!-- 리스트 코드 -->
+        <ul>
+            <li>
+                <a href="HOME.html">HOME</a> 
+            </li>
+            <li>
+                <a href="OTT_PLATFORM.html">OTT 플랫폼의 종류</a>
+            </li>
+        
+        </ul>
+    </div>
+        <div class="leftnav">
+                    
+          <ul>
+              <li>
+                  <a href="OTT_1.html">OTT의 개념</a>
+              </li>
+          
+              <li>
+                  <a href="OTT_2.html">OTT의 이해</a>
+              </li>
+          
+              <li>
+                  <a href="OTT_3.html">코드 커팅</a>
+              </li>
+          
+              <li>
+                  <a href="OTT_4.html">OTT의 전망</a>
+              </li>
+          
+              <li>
+                  <a href="OTT_5.html">전통 TV 종말</a>
+              </li>
+  
+              
+          </ul>
+      </div>
+        <!-- 본문 내역 -->
+        <div class="container">
+            <div class="content">
+              
+                    <!-- 본문 제목 -->
+                    <div class="content_title">
+                        <h2> 전통 TV 종말 </h2>
+                    </div>
+
+                   
+                    <div class="content_exp">
+                       
+                        <img class='max-small' src="images/6.jpg">
+                        
+                            <div class="title">
+                            <h2>전통적인 TV의 종말</h2>
+                        
+                                    <!-- 상세 설명 -->
+                            <div class="base">
+                                
+                                <h4>
+                                    빈트 서프 박사의 말처럼 OTT 서비스가 전통적 유선 기반 방송 플랫폼을 위협하고 있는 것은 부인할 수 없는 현상으로 보인다. <br> 
+                                    전통적인 음반(CD) 산업이 MP3 플레이어의 등장으로 붕괴되었듯이 TV 프로그램 역시 보고 싶은 것만 선택해 보는 주문형(VOD)으로 변화하는 흐름은 피할 수 없어 보이기 때문이다. <br><br>
+                                    가정에서 케이블 TV, 위성방송 등 유료 방송을 시청하지 않는 가구가 늘고 있다. 전통적인 TV 시청을 하지 않는 ‘제로 TV’ 가구가 등장하고 있는 것이다. <br> 
+                                    제로 TV란 유료 방송 서비스에 가입하지 않고, 지상파방송도 수신하지 않고 미디어 콘텐츠를 소비하는 가구를 말한다. 이 같은 가구는 시청률을 산정할 때 포함하지 않기 때문에 제로 TV로 부른다. <br><br>
+                                    우리나라도 젊은 층을 중심으로 제로 TV 가구가 늘어나고 있다. 정보통신정책연구원(KISDI)에 따르면 20대 1인 가구의 제로 TV 가구 비율은 37.2%에 달하는 것으로 나타났다. 제로 TV 가구가 증가하는 것은 이제 꼭 TV가 아니라도 PC와 태블릿, 스마트폰 등을 통해 미디어 콘텐츠를 이용할 수 있게 되었기 때문이다. <br><br>
+                                    우리나라에서도 OTT 서비스의 성장 속도는 눈부시다.OTT 서비스의 급격한 증가는 시청률 조사에도 변화를 가져오고 있다. <br> 
+                                    미국의 대표적인 시청률 조사 기업인 닐슨은 이제 온라인 TV 시청자를 시청률 조사에 포함시킬 계획을 갖고 있다고 했다. 시청률을 조사하는 것은 소비자들의 시청 행태를 분석해 광고 전략에 활용하려는 것이 주목적이다. <br>
+                                    이제 시청률 조사에서 방송국에서 송출해 TV로 수신하는 지상파와 케이블, 위성방송만 포함하고 인터넷으로 접속하는 넷플릭스, 훌루 등의 OTT 서비스 시청 경향을 제외한다면 제대로 된 광고 전략 수립을 위한 시청률 조사의 의미가 반감되기 때문이다. <br> 
+                                    이렇게 되면 TV 광고 시장에 혁명적인 변화가 불어닥칠 조짐이다. 막대한 광고비가 기존 TV를 떠나 인터넷 기반의 OTT 서비스로 옮겨 탈 것이기 때문이다. <br><br>
+
+                                    바야흐로 전통적인 의미에서 ‘TV의 시대’는 끝났다. 사람들은 온라인 미디어와 모바일 기술 덕택에 TV를 넘어서 훨씬 더 다양하고 편리한 방법으로 콘텐츠에 접근한다. 그 진화의 중심에 OTT 서비스가 있다.
+                                    
+                                    </h4>
+                            </div>
+                            </div>
+                    </div>
+
+          
+            
+            
+        </div>
+    </div>
+
+    
+</body>
+</html>
